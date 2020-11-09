@@ -32,5 +32,6 @@ var $plugins =
 {"name":"MovieManager","status":true,"description":"動画管理プラグイン","parameters":{}},
 {"name":"RS_YoutubePlayer","status":true,"description":"ユーチューブプレイヤーです。<RS_YoutubePlayer>","parameters":{"Video Quality":"hd720","Size":"Normal","Looping":"false"}},
 {"name":"TitleCommandPosition","status":true,"description":"タイトルコマンドウィンドウの位置を変更します。","parameters":{"Offset X":"0","Offset Y":"20","Width":"240","Background":"0"}},
-{"name":"VersionSpecified","status":true,"description":"【MMP ver.1.0】タイトル画面にバージョンを明記します。","parameters":{"version":"Version 0.11.2.2 (α)","fontSize":"20","fontColor":"rgb(255, 255, 255)","windowX":"0","windowY":"0"}}
+{"name":"VersionSpecified","status":true,"description":"【MMP ver.1.0】タイトル画面にバージョンを明記します。","parameters":{"version":"Version 0.11.2.2 (α)","fontSize":"20","fontColor":"rgb(255, 255, 255)","windowX":"0","windowY":"0"}},
+{"name":"MpiTitleMovie","status":true,"description":"タイトル画面で動画再生","parameters":{"Movie File Name":"title","Extension":"auto","X-coord":"0","Y-coord":"0","Priority":"0"}}
 ];
